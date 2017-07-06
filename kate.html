@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="katekod.js"></script>
+
+</head>
+
+<body>
+
+
+
+<input type="button" id="Time" name="Time" value="Текущая дата" onclick="Currenttime();" />
+
+
+
+
+
+ <form>
+   <p>Перевести число: <input maxlength="5" size="5" id="in"></p>
+
+    <p><select id= "select" name="select" size="1" multiple>
+    <option selected id="s1"> Из шкалы Цельсия в Шкалу Фарингейта</option>
+    <option id="s2"> Из шкалы Фарингейта в шкалу Цельсия</option>
+    </select>
+    <input type="button" value="Перевести" onclick="Convert();" /> 
+    <p>Результат: <span id="result"> </span></p>
+
+ </form>
+
+
+
+
+        <p>x = <input type="text" id="x" size="5">
+           y = <input type="text" id="y" size="5"></p>
+		<p> x <input type="button" value="+" onclick="Plus()">
+		<input type="button" value="-" onclick="Minus()">
+		<input type="button" value="*" onclick="Multiply()">
+		<input type="button" value="\" onclick="Division()"> y = <span id="Result"> </span></p>
+
+
+</body>
+
+</html>
